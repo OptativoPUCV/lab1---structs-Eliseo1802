@@ -12,8 +12,13 @@ Ejercicio 1.
 Programe la función void swap(int *a, int *b), la cual
 intercambia los valores de las variables apuntadas por a y b.
 */
-void swap(int *a, int *b) {
-
+void swap(int *a, int *b)
+{
+  int subA, subB;
+  subA = a*;
+  subB = b*;
+  a = subB;
+  b = subA;
 }
 
 /*
