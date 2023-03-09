@@ -112,3 +112,22 @@ exercises.c:21:6: error: expected expression before ‘=’ token
 cc1: all warnings being treated as errors
 Compilation failed
 8b907dd
+Thu 09 Mar 2023 03:54:56 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:18:12: error: expected expression before ‘;’ token
+   18 |   subA = a*;
+      |            ^
+exercises.c:19:12: error: expected expression before ‘;’ token
+   19 |   subB = b*;
+      |            ^
+exercises.c:20:6: error: expected expression before ‘=’ token
+   20 |   a* = subB;
+      |      ^
+exercises.c:21:6: error: expected expression before ‘=’ token
+   21 |   b* = subA;
+      |      ^
+Compilation failed
+92be62f
