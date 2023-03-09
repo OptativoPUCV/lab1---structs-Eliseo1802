@@ -148,3 +148,9 @@ exercises.c:17:13: error: unused variable ‘subB’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 77cb5d7
+Thu 09 Mar 2023 03:56:03 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+c442d47
