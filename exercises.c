@@ -83,7 +83,7 @@ Vector * crearVector(int size)
 {
   Vector *v = (Vector*)calloc(size,sizeof(Vector));
   if(v == NULL) return NULL;
-  v->capacidad = size;
+  //v->capacidad = size;
   for(int i = 0;i<size;i++)
     v->datos[i] = 0;
   return v;
