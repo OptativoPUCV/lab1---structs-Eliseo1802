@@ -225,3 +225,14 @@ Fri 10 Mar 2023 05:58:47 PM UTC:
  1 file changed, 1 insertion(+)
  tests:  0|0
 0ee8ee7
+Fri 10 Mar 2023 05:59:05 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:86:4: error: ‘v’ is a pointer; did you mean to use ‘->’?
+   86 |   v.capacidad = n;
+      |    ^
+      |    ->
+Compilation failed
+c0f5bd4
