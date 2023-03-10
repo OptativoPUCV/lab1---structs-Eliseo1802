@@ -81,7 +81,8 @@ typedef struct {
 
 Vector * crearVector(int size)
 {
-  Vector *v = (Vector*)calloc(size,sizeof(Vector));
+  Vector *v = (Vector*)calloc(size+1,sizeof(Vector));
+  if(v == NULL) return NULL;
   v->capacidad = size;
   for(int i = 0;i<size;i++)
     v->datos[i] = 0;
