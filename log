@@ -267,3 +267,13 @@ Fri 10 Mar 2023 06:01:03 PM UTC:
  1 file changed, 4 insertions(+), 4 deletions(-)
  tests:  0|0
 617c0fe
+Fri 10 Mar 2023 06:01:26 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:86:23: error: expected expression before ‘;’ token
+   86 |   v->capacidad = size*;
+      |                       ^
+Compilation failed
+dd1f712
