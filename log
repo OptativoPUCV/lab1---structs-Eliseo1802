@@ -327,3 +327,9 @@ Fri 10 Mar 2023 06:05:33 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 7ddd514
+Fri 10 Mar 2023 06:05:47 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+8e41eab
