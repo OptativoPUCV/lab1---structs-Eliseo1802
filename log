@@ -204,3 +204,13 @@ Fri 10 Mar 2023 05:55:26 PM UTC:
  tests:  2|5
 total_score: 20/70
 14ef1d9
+Fri 10 Mar 2023 05:57:02 PM UTC: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:87:12: error: incompatible types when assigning to type ‘Vector’ from type ‘int’
+   87 |     v[i] = 0;
+      |            ^
+Compilation failed
+65141da
