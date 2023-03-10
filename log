@@ -214,3 +214,9 @@ exercises.c:87:12: error: incompatible types when assigning to type ‘Vector’
       |            ^
 Compilation failed
 65141da
+Fri 10 Mar 2023 05:57:30 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+ad7e0c0
