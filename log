@@ -257,3 +257,8 @@ exercises.c:88:6: error: ‘v’ is a pointer; did you mean to use ‘->’?
       |      ->
 Compilation failed
 418f326
+Fri 10 Mar 2023 06:00:26 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+5a009f3
