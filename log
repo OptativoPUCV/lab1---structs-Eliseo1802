@@ -391,3 +391,15 @@ Fri 17 Mar 2023 05:34:26 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 6b478b0
+Fri 17 Mar 2023 05:35:55 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:89:10: error: returning ‘Vector **’ from a function with incompatible return type ‘Vector *’ [-Werror=incompatible-pointer-types]
+   89 |   return &v;
+      |          ^~
+exercises.c:89:10: error: function returns address of local variable [-Werror=return-local-addr]
+cc1: all warnings being treated as errors
+Compilation failed
+71342b6
