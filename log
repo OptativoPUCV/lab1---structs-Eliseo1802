@@ -545,3 +545,23 @@ Fri 17 Mar 2023 05:50:07 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 51590b8
+Fri 17 Mar 2023 05:50:36 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:4: error: invalid type argument of ‘->’ (have ‘Vector’)
+   85 |   v->capacidad = n;
+      |    ^~
+exercises.c:87:6: error: invalid type argument of ‘->’ (have ‘Vector’)
+   87 |     v->datos[i] = i + 1;
+      |      ^~
+exercises.c:88:10: error: incompatible types when returning type ‘Vector’ but ‘Vector *’ was expected
+   88 |   return v;
+      |          ^
+exercises.c:89:1: error: control reaches end of non-void function [-Werror=return-type]
+   89 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+3782b70
