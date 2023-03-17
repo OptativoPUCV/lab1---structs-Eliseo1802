@@ -79,7 +79,7 @@ typedef struct {
    int capacidad; // capacidad del arreglo
 } Vector;
 
-Vector crearVector(int n)
+Vector *crearVector(int n)
 {
   Vector v;
   v.capacidad = n;
