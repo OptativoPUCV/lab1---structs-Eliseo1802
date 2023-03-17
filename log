@@ -437,3 +437,26 @@ Fri 17 Mar 2023 05:40:14 PM UTC:
  1 file changed, 1 insertion(+), 4 deletions(-)
  tests:  0|0
 7d770c4
+Fri 17 Mar 2023 05:40:23 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:24: error: incompatible types when returning type ‘void *’ but ‘Vector’ was expected
+   85 |   if(v == NULL) return NULL;
+      |                        ^~~~
+exercises.c:89:10: error: incompatible types when returning type ‘Vector *’ but ‘Vector’ was expected
+   89 |   return v;
+      |          ^
+test.c: In function ‘test_creaV’:
+test.c:140:17: error: incompatible types when initializing type ‘Vector *’ using type ‘Vector’
+  140 |     Vector *v = crearVector(size);
+      |                 ^~~~~~~~~~~
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:90:1: error: control reaches end of non-void function [-Werror=return-type]
+   90 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+c9ce59d
