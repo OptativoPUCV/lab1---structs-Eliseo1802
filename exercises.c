@@ -79,10 +79,10 @@ typedef struct {
    int capacidad; // capacidad del arreglo
 } Vector;
 
-Vector crearVector(int n)
+Vector *crearVector(int n)
 {
   Vector *v = (Vector*)calloc(n,sizeof(Vector));
-  //if(v == NULL) return NULL;
+  if(v == NULL) return NULL;
   v->capacidad = n;
   for(int i = 0;i<n;i++)
     v->datos[i] = 0;
