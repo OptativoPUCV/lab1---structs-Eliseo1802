@@ -82,10 +82,13 @@ typedef struct {
 Vector * crearVector(int n)
 {
   Vector *v = (Vector*)calloc(n,sizeof(Vector));
-  //if(v == NULL) return NULL;
-  v->capacidad = n;
+  if(v == NULL) return NULL;
+  
   for(int i = 0;i<n;i++)
-    v->datos[i] = 0;
+    {
+      v->capacidad = n;
+      v->datos[i] = 0;
+    }
   return v;
 }
 
