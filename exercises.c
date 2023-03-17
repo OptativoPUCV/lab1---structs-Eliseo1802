@@ -81,7 +81,7 @@ typedef struct {
 
 Vector *crearVector(int n)
 {
-  Vector *v;
+  Vector *v = NULL;
   v->capacidad = n;
   for(int i = 0;i < n;i++)
     v->datos[i] = i + 1;

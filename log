@@ -540,3 +540,8 @@ exercises.c:85:16: error: ‘v’ is used uninitialized in this function [-Werro
 cc1: all warnings being treated as errors
 Compilation failed
 d62fa0c
+Fri 17 Mar 2023 05:50:07 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+51590b8
