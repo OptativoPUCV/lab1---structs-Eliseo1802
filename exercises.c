@@ -82,9 +82,9 @@ typedef struct {
 Vector *crearVector(int n)
 {
   Vector *v;
-  v.capacidad = n;
+  v->capacidad = n;
   for(int i = 0;i < n;i++)
-    v.datos[i] = 0;
+    v->datos[i] = 0;
   return v;
 }
 
