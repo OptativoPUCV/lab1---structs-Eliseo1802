@@ -754,3 +754,16 @@ Fri 17 Mar 2023 06:12:23 PM UTC:
  tests:  7|1
 total_score: 60/70
 5718197
+Fri 17 Mar 2023 06:13:24 PM UTC: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:64:13: error: assignment to expression with array type
+   64 |   p->nombre = nombre;
+      |             ^
+exercises.c:65:10: error: assignment to expression with array type
+   65 |   p->rut = rut;
+      |          ^
+Compilation failed
+3e4b0ad
