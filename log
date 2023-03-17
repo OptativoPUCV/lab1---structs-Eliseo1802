@@ -672,3 +672,14 @@ Fri 17 Mar 2023 05:52:37 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 bbadadd
+Fri 17 Mar 2023 05:53:16 PM UTC: 
+ exercises.c | 16 +---------------
+ 1 file changed, 1 insertion(+), 15 deletions(-)
+test.c: In function ‘test_creaV’:
+test.c:140:17: error: implicit declaration of function ‘crearVector’ [-Werror=implicit-function-declaration]
+  140 |     Vector *v = crearVector(size);
+      |                 ^~~~~~~~~~~
+test.c:140:17: error: initialization of ‘Vector *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+cc1: all warnings being treated as errors
+Compilation failed
+aa04998
