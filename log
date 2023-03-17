@@ -529,3 +529,14 @@ exercises.c:87:6: error: ‘v’ is a pointer; did you mean to use ‘->’?
       |      ->
 Compilation failed
 7ea3672
+Fri 17 Mar 2023 05:49:42 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+test.c: In function ‘crearVector’:
+exercises.c:85:16: error: ‘v’ is used uninitialized in this function [-Werror=uninitialized]
+   85 |   v->capacidad = n;
+      |   ~~~~~~~~~~~~~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+d62fa0c
