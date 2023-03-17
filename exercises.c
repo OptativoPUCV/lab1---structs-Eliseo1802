@@ -87,8 +87,8 @@ Vector *crearVector(int n)
   for(int j = 0;j<n;j++)
     for(int i = 0;i<n;i++)
       {
-      v[j]->capacidad = n;
-      v[j]->datos[i] = 0;
+      v[j].capacidad = n;
+      v[j].datos[i] = 0;
       }
   return v;
 }
