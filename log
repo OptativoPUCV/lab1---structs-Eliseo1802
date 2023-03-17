@@ -365,3 +365,13 @@ Fri 17 Mar 2023 05:33:59 PM UTC:
  1 file changed, 4 insertions(+), 4 deletions(-)
  tests:  0|0
 8e4d3a7
+Fri 17 Mar 2023 05:34:11 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:86:18: error: invalid type argument of unary ‘*’ (have ‘int’)
+   86 |   v->capacidad = *n;
+      |                  ^~
+Compilation failed
+c9185af
