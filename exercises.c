@@ -79,18 +79,20 @@ typedef struct {
    int capacidad; // capacidad del arreglo
 } Vector;
 
+Vector *crearVector(int n)
+{
+  Vector *v;
+  v.capacidad = n;
+  for(int i = 0;i < n;i++)
+    v.datos[i] = i + 1;
+  return v;
+}
+
 /*Vector *crearVector(int n)
 {
   Vector *v = (Vector*)calloc(n,sizeof(Vector));
-  for(int i = 0;i < n;i++)
-    v->datos[i] = i + 1;
-}*/
-
-Vector *crearVector(int n)
-{
-  Vector *v = (Vector*)calloc(n,sizeof(Vector));
   if(v == NULL) return NULL;
-  v.capacidad = n;
+  v->capacidad = n;
   for(int j = 0;j<n;j++)
     for(int i = 0;i<n;i++)
       {
@@ -98,7 +100,7 @@ Vector *crearVector(int n)
         v[j].datos[i] = 0;
       }
   return v;
-}
+}*/
 
 /*
 Ejercicio 5a.

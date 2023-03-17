@@ -514,3 +514,18 @@ exercises.c:93:4: error: ‘v’ is a pointer; did you mean to use ‘->’?
       |    ->
 Compilation failed
 cbf9aa7
+Fri 17 Mar 2023 05:49:32 PM UTC: 
+ exercises.c | 16 +++++++++-------
+ 1 file changed, 9 insertions(+), 7 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:4: error: ‘v’ is a pointer; did you mean to use ‘->’?
+   85 |   v.capacidad = n;
+      |    ^
+      |    ->
+exercises.c:87:6: error: ‘v’ is a pointer; did you mean to use ‘->’?
+   87 |     v.datos[i] = i + 1;
+      |      ^
+      |      ->
+Compilation failed
+7ea3672
