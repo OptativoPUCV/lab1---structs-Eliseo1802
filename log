@@ -618,3 +618,12 @@ exercises.c:89:1: error: control reaches end of non-void function [-Werror=retur
 cc1: all warnings being treated as errors
 Compilation failed
 fe9ea3c
+Fri 17 Mar 2023 05:51:35 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+test.c: In function ‘test_creaV’:
+test.c:140:17: error: incompatible types when initializing type ‘Vector *’ using type ‘Vector’
+  140 |     Vector *v = crearVector(size);
+      |                 ^~~~~~~~~~~
+Compilation failed
+f41aab5
